@@ -1,0 +1,316 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background:#f2f2f2;
+}
+
+/* ===== TOP NAV ===== */
+.top-nav{
+  height:120px;
+  background:#4f4654;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  padding:0 15px;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+.header{
+display: flex;
+flex-direction: row;
+width: 100%;
+align-items: center;
+}
+.header img{
+  width: 80px;
+  height: 100%;
+  margin-left:2% ;
+  
+}
+.header h1{
+margin-left: 2%;
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  
+}
+
+.menu-btn{
+  font-size:28px;
+  cursor:pointer;
+}
+
+.title{
+  margin-left:15px;
+  font-size:20px;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar{
+  position:fixed;
+  top:0;
+  left:-280px;
+  width:280px;
+  height:100vh;
+  background:#fff;
+  box-shadow:2px 0 15px rgba(0,0,0,0.3);
+  transition:0.4s ease;
+  z-index:2000;
+}
+
+.sidebar.active{
+  left:0;
+}
+
+/* sidebar header */
+.sidebar-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  border-bottom:1px solid #ddd;
+}
+
+.sidebar-header h2{
+  color:#029afd;
+}
+
+.close-btn{
+  font-size:26px;
+  cursor:pointer;
+}
+
+/* menu list */
+.sidebar ul{
+  list-style:none;
+  padding:15px;
+}
+
+.sidebar ul li a{
+  display:block;
+  padding:12px;
+  font-size:18px;
+  color:#333;
+  text-transform: uppercase;
+  text-decoration:none;
+  border-radius:5px;
+}
+
+.sidebar ul li a:hover{
+  background:#e6f4ff;
+  color:#029afd;
+}
+
+/* ===== OVERLAY ===== */
+.overlay{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  background:rgba(0,0,0,0.4);
+  display:none;
+  z-index:1500;
+}
+
+.overlay.active{
+  display:block;
+}
+
+/* pag name */
+
+.pagn{
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #1e293b;
+  color: #fff;
+}
+.pagn a{
+  text-decoration: none;
+
+}
+
+/* <!-- about first specse sec --> */
+
+.ab{
+  width: 100%;
+  text-align: center;
+  height: 220px;
+  margin-top: 20px;
+}
+
+/* mizan sir */
+
+.m{
+ width: 95%;
+ height: auto;
+text-align: center;
+background-color: #fff;
+border: 1px solid black;
+border-radius: 10px;
+margin: auto;
+padding: 10px 20px;
+box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.m img{
+  width: 40%;
+  height: auto;
+  margin-bottom: -4px;
+}
+.m h3{
+  width: 40%;
+  padding: 5px 10px;
+  background-color: black;
+  color: #fff;
+  margin: auto;
+}
+.m p{
+  color: #777;
+  padding-top: 20px;
+}
+
+/* ideal location */
+.idloc{
+  width: 95%;
+  height: 400px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 80px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.idloc h2{
+  padding: 20px;
+}
+.idloc .location{
+  width: 99%;
+  height: 90%;
+  margin: auto;
+
+}
+
+
+/* sajjjad */
+.me{
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 10px;
+}
+.me img{
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+/* last speces */
+
+.end{
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+
+/* last speces box */
+
+.end .ep{
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.end p{
+  margin-top: 10px;
+}
+p span{
+  color: red;
+}
+/* footer section */
+.footer{
+  background:#0f172a;
+  color:#fff;
+  padding:50px 20px 20px;
+}
+
+.footer-container{
+  max-width:1100px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:30px;
+}
+
+/* Headings */
+.footer h3{
+  color:#38bdf8;
+  margin-bottom:15px;
+}
+
+/* Text & links */
+.footer p, .footer .a{
+  font-size:14px;
+  color:#cbd5e1;
+  text-decoration:none;
+  line-height:1.8;
+}
+
+.footer .a:hover{
+  color:#38bdf8;
+}
+
+/* Social icons */
+.social{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+}
+
+.social a{
+  width:38px;
+  height:38px;
+  background:#38bdf8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  font-size:20px;
+  transition:0.3s;
+  color: #000;
+  text-decoration: none;
+}
+
+ .facebook:hover{
+  background:#fff;
+  color:#38bdf8;;
+}
+.insta:hover {
+  background:#000;
+  color:#fff;
+}
+.youtube:hover{
+  background:#fff;
+  color:#f03621;
+}
+
+/* Bottom bar */
+.footer-bottom{
+  text-align:center;
+  margin-top:40px;
+  border-top:1px solid #1e293b;
+  padding-top:15px;
+  font-size:13px;
+  color:#94a3b8;
+}
