@@ -16,8 +16,8 @@ const container = document.getElementById("studentContainer");
 const cardsData = [
     {  id: "01", oneImage: "teacher img/mizan.jpg",name: "Mizanur Rahaman ", mbNo:"01841286692" ,sub:"ইংরেজী", di:"সব ঘটনা ঘটে না, যা ঘটে তা ঘটনা, যা ঘটে না তা রটনা। বুঝলে বুঝ পাতা না বুঝলে তেজ পাতা। ওয়া ওয়া" ,prGr:"",feacUl:"https://www.facebook.com/mizanrahman.ideal"},
     {  id: "02", oneImage: "teacher img/basar.jpg",name: "Abul Basar ", mbNo:"01812100876" ,sub:"ইংরেজি ১ম,হিসাব বিজ্ঞান", di:"নামিয়ে পেলব,দর ল,রুচির দূরবীক্ষ চলতেছে" ,prGr:"",feacUl:"https://www.facebook.com/abul.basar.984570"},
-    {  id: "03", oneImage: "teacher img/zilu.jpg",name: "0 1815-477392", mbNo:"" ,sub:"গণিত(১০ম),আইসিটি(১০ম),জীব বিজ্ঞান", di:"" ,prGr:"",feacUl:""},
-    {  id: "04", oneImage: "teacher img/mosta.jpg",name: "Mostafa", mbNo:"01784620962" ,sub:"বিজ্ঞান(১০ম),রসায়ন", di:"আমি বাংলায় দূর্বল, আমি বাংলার প্রতি দূর্বল" ,prGr:"",feacUl:""},
+    {  id: "03", oneImage: "teacher img/zilu.jpg",name: "Zillur Rahman", mbNo:"01815477392" ,sub:"বিজ্ঞান(১০ম),রসায়ন", di:"আমি বাংলায় দূর্বল, আমি বাংলার প্রতি দূর্বল" ,prGr:"",feacUl:""},
+    {  id: "04", oneImage: "teacher img/mosta.jpg",name: "Mostafa", mbNo:"01784620962" ,sub:"গণিত(১০ম),আইসিটি(১০ম),জীব বিজ্ঞান", di:"" ,prGr:"",feacUl:""},
     {  id: "05", oneImage: "teacher img/nozibul alam.jpg",name: "Nazibul Alam", mbNo:"" ,sub:"কৃষি(১০ম)", di:"" ,prGr:"",feacUl:"https://www.facebook.com/nazibul.alam.815022"},
     {  id: "06", oneImage: "teacher img/sala.jpg",name: "Muhammad Salahuddin Ayyubi", mbNo:"" ,sub:"বাংলাদেশ ও বিশ্ব পরিচয়(৯ম),বিজ্ঞান(৯ম),ইংরেজি ২য়(৯ম),কোচিং ইংরেজি(১০ম)", di:"" ,prGr:"",feacUl:"https://www.facebook.com/sk.parvez.148"},
     {  id: "07", oneImage: "teacher img/hasan.jpg",name: "Md Hashem Riad ", mbNo:"" ,sub:"গণিত(১০ম),আইসিটি(১০ম), ফিন্যান্সও ব্যাংক কিং", di:"৫ বেত, ১০বেত" ,prGr:"",feacUl:"https://www.facebook.com/mdhashem.riad.77"},

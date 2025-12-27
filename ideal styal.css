@@ -11,7 +11,7 @@ body{
 
 /* ===== TOP NAV ===== */
 .top-nav{
-  height:120px;
+  height:80px;
   background:#4f4654;
   color:#fff;
   display:flex;
@@ -28,7 +28,7 @@ width: 100%;
 align-items: center;
 }
 .header img{
-  width: 80px;
+  width: 60px;
   height: 100%;
   margin-left:2% ;
   
@@ -41,8 +41,9 @@ margin-left: 2%;
 }
 
 .menu-btn{
-  font-size:28px;
+  font-size:25px;
   cursor:pointer;
+  margin-bottom: 3px;
 }
 
 .title{
@@ -158,10 +159,11 @@ margin-left: 2%;
 }
 /* FIXED TEXT */
 .text{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position:absolute;
   bottom:70%;
   left:18%;
-  color:rgb(58, 48, 243);
+  color:#fff;
   background:transparent;
   padding:15px;
   border-radius:8px;
@@ -176,9 +178,9 @@ text-align: center;
 /* head marqi */
 
 marquee{
-  background-color: rgb(85, 83, 90);
-  font-size: 20px;
-  height: 45px;
+  background-color: rgb(97, 87, 123);
+  font-size: 18px;
+  height: 40px;
 padding: 10px 5px;
   margin-top: -2px;
   color: #fff;
